@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    font-size: 2rem;
+    cursor: pointer;
+    
+    border-radius: 100px;
+    transition: 0.3s;
+    border: solid #BA55D3;
+}
+.btn:hover{
+    background-color: #BA55D3;
+}
+.service-btn{
+    transition: 1s;
+}
+.service-btn:hover{
+    border: solid purple;
+    transition: 1s;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+.btn-login{
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin: 4px;
+    padding: 4px 6px;
+}
+.btn-login:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
